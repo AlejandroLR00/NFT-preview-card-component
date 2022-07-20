@@ -1,0 +1,129 @@
+:root{
+
+    /* Primary */
+
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --linea: 1px solid red;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.main{
+    background-color: var(--main-bg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: var(--card-bg);
+    margin: 2rem 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: var(--White);
+}
+
+.card__img{
+    /* outline: var(--linea); */
+    width: 100%;
+    height: 16.2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card__img--img{
+    width: 100%;
+}
+
+.card__sumary{
+    font-size: 18px;
+
+}
+
+.card__sumary--title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1em 0;
+
+}
+
+.card__sumary--paragraph{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.card--blue{
+    color: var(--Soft-blue);
+}
+
+.card__coin{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.card__coin--eth{
+    padding-left: 1em;
+    position: relative;
+}
+
+.card__coin--eth::before{
+    content: url("/images/icon-ethereum.svg");
+    position: absolute;
+    left: -.1em;
+}
+
+.card__coin--time{
+    position: relative;
+}
+
+.card__coin--time::before{
+    content: url("/images/icon-clock.svg");
+    position: absolute;
+    left: -1.2em;
+    zoom: 1.1;
+}
+
+.coin--green{
+    color: var(--Cyan);
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--line);
+    margin: 1em 0;
+
+}
+.card__perfil{
+    /* outline: var(--linea); */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.card__perfil--avatar{
+    width: 2rem;
+    border: .1rem solid white;
+    border-radius: 50%;
+    margin: 0 1em 0 0;
+}
+
+.card__perfil--text{
+    padding-right: .2em;
+}
