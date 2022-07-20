@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-Smk1H-Zcm_)
 - Live Site URL: [Live site](https://luminous-peony-4f852e.netlify.app/)
 
 ## My process
